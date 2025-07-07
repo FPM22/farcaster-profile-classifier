@@ -39,9 +39,9 @@ Install dependencies (in Colab):
 ├── .gitignore
 └── .env.example                     # Shows what variables are needed
 
-##📤 Output
+## 📤 Output
 The Google Sheet is updated in-place.
 A local CSV backup is also saved: backup_builders_list.csv.
 
-##👤 Maintainer
+## 👤 Maintainer
 Created by @franciscomarengo22 for Quotient.
