@@ -23,3 +23,25 @@ Install dependencies (in Colab):
 
 ```python
 !pip install --upgrade openai gspread oauth2client
+```
+
+## 🧑‍💻 How to Use
+- Open the notebook in Google Colab.
+- Upload your credenciales.json.
+- Set your environment variables in the first cell.
+- Run all cells.
+
+## 📁 Folder Structure
+/farcaster-profile-classifier
+│
+├── FarcasterClassifier.ipynb        # Main notebook
+├── README.md
+├── .gitignore
+└── .env.example                     # Shows what variables are needed
+
+##📤 Output
+The Google Sheet is updated in-place.
+A local CSV backup is also saved: backup_builders_list.csv.
+
+##👤 Maintainer
+Created by @franciscomarengo22 for Quotient.
